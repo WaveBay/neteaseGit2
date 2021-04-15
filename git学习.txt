@@ -11,3 +11,5 @@
    git clone ssh地址
 6 更新代码再次提交
    重复步骤4 
+7 拉取最新的代码
+  git pull
