@@ -3,3 +3,11 @@
 根据生成的密钥 公钥 将公钥配置到仓库即可
 2 测试是否连接成功   ssh -T git@github.com
 3 建立本地仓库 git init 将其与远程仓库关联
+4 远程提交
+  git add .  注释(全部提交. 或者带文件名提交)
+  git commit -m '注释'
+  git push -u origin master
+5 从远程仓库下载代码克隆到本地仓库
+   git clone ssh地址
+6 更新代码再次提交
+   重复步骤4 
